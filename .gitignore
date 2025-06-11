@@ -1,0 +1,4 @@
+/.idea/
+__pycache__/
+/DJ01/db.sqlite3
+/GitExtensions.settings
