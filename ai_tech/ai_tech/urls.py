@@ -1,5 +1,5 @@
 """
-URL configuration for DJ01 project.
+URL configuration for ai_tech project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -21,5 +21,5 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('main.urls')),
+    path('', include('pages.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
