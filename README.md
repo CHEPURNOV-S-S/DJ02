@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 2. Перейдите в папку проекта:
 ```Powershell
-cd DJ02
+cd .\ai_tech\
 ```
 
 3. Примените миграции:
