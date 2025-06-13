@@ -40,16 +40,26 @@ ai_tech/
 
 ```
 git clone https://github.com/CHEPURNOV-S-S/DJ02.git
+cd DJ02
 ```
+
 
 ## 🚀 Установка и запуск
 
-1. Установите зависимости:
-```
+1. Создайте venv и установите зависимости:
+
+```Powershell
+python.exe -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-2. Примените миграции:
+2. Перейдите в папку проекта:
+```Powershell
+cd DJ02
+```
+
+3. Примените миграции:
 ```
 python manage.py migrate
 ```
