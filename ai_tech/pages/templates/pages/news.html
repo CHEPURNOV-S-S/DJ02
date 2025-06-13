@@ -1,0 +1,27 @@
+{% extends "pages/base.html" %}
+
+{% block title %}
+  Новости — TechAI
+{% endblock %}
+
+{% block content %}
+  <h2 class="mb-4">Последние новости ИИ</h2>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Новый алгоритм от Google</h5>
+          <p class="card-text">Google представил новый алгоритм для обработки естественного языка с рекордной точностью.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Генерация видео при помощи нейросетей</h5>
+          <p class="card-text">Стартап Runway AI выпустил инструмент для создания видео из текстовых запросов.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
